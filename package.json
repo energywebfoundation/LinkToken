@@ -13,6 +13,7 @@
     "moment": "^2.15.2",
     "solc": "^0.4.11",
     "truffle": "^4.1.15",
+    "truffle-hdwallet-provider": "^1.0.17",
     "web3": "^1.0.0-beta.55"
   },
   "files": [

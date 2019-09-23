@@ -8,9 +8,9 @@ import './token/linkStandardToken.sol';
 contract LinkToken is linkStandardToken, ERC677Token {
 
   uint public constant totalSupply = 10**27;
-  string public constant name = 'ChainLink Token';
+  string public constant name = 'EWLink Token';
   uint8 public constant decimals = 18;
-  string public constant symbol = 'LINK';
+  string public constant symbol = 'EWLINK';
 
   function LinkToken()
     public
