@@ -1,15 +1,14 @@
-pragma solidity ^0.4.8;
-
+pragma solidity ^0.5.0;
 
 import '../token/linkStandardToken.sol';
 
 
 contract StandardTokenMock is linkStandardToken {
 
-  function StandardTokenMock(address initialAccount, uint initialBalance)
-  {
-    balances[initialAccount] = initialBalance;
-    totalSupply = initialBalance;
-  }
-
+    constructor(address initialAccount, uint initialBalance)
+      public
+    {
+        balances[initialAccount] = initialBalance;
+        totalSupply = initialBalance;
+    }
 }

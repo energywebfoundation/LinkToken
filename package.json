@@ -8,6 +8,7 @@
     "Steve Ellis <steve@smartcontract.com>"
   ],
   "devDependencies": {
+    "@openzeppelin/contracts": "^2.3.0",
     "bignumber.js": "^2.0.0",
     "ganache-cli": "^6.4.1",
     "moment": "^2.15.2",
