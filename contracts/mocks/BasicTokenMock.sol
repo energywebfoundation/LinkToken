@@ -1,5 +1,4 @@
-pragma solidity ^0.4.8;
-
+pragma solidity ^0.5.0;
 
 import '../token/linkBasicToken.sol';
 
@@ -7,10 +6,10 @@ import '../token/linkBasicToken.sol';
 // mock class using BasicToken
 contract BasicTokenMock is linkBasicToken {
 
-  function BasicTokenMock(address initialAccount, uint initialBalance)
-  {
-    balances[initialAccount] = initialBalance;
-    totalSupply = initialBalance;
-  }
-
+    constructor(address initialAccount, uint initialBalance)
+        public
+    {
+        balances[initialAccount] = initialBalance;
+        totalSupply = initialBalance;
+    }
 }
